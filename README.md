@@ -12,6 +12,6 @@ This project focuses on developing a machine-learning model to predict which gue
 ---
 ## Dataset Source
 
-The dataset used in this project is the [Hotel Reservations Dataset](https://www.kaggle.com/datasets/ahsanraza/hotel-reservations), created by Ahsan Raza. This dataset provides the necessary features for building and evaluating the machine learning model used in this project.
+The dataset used in this project is the [Hotel Reservations Dataset](https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset), created by Ahsan Raza. This dataset provides the necessary features for building and evaluating the machine learning model used in this project.
 
 ---
