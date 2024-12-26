@@ -10,3 +10,8 @@ Efficient capacity management is a critical aspect of success for hotel chains. 
 This project focuses on developing a machine-learning model to predict which guests are likely to cancel their bookings. By leveraging historical booking data and identifying key patterns, the model aims to provide actionable insights for hotel chains, helping them make informed decisions about resource allocation, overbooking strategies, and marketing efforts to retain at-risk customers.
 
 ---
+## Dataset Source
+
+The dataset used in this project is the Hotel Reservations Dataset, created by Ahsan Raza. This dataset provides the necessary features for building and evaluating the machine learning model used in this project.
+
+---
