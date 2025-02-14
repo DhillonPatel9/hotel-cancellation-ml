@@ -1,17 +1,34 @@
-# Hotel Cancellation Machine Learning
+# Hotel Booking Cancellation Prediction
 
-## Project Description:
+### - Dhillon Patel
 
-This project was completed as an assignment for BUS 458 at North Carolina State University. It was developed collaboratively with two other group members to demonstrate proficiency in machine learning techniques, data preprocessing, and model evaluation. The project focused on predicting hotel bookings using a dataset that required thoughtful exploration and feature engineering to address real-world challenges in the hospitality industry.
+This project aims to predict whether a hotel booking will be canceled based on various features. It includes data exploration, preprocessing, and predictive modeling using Random Forest, Gradient Boosting, and Decision Tree.
 
-#### **Background**
-Efficient capacity management is a critical aspect of success for hotel chains. Unexpected cancellations can disrupt operations, result in revenue losses from underbooking, and cause customer dissatisfaction when overbooking strategies are implemented. Therefore, understanding and anticipating booking cancellations is essential for optimizing operations and maintaining a balance between revenue goals and guest satisfaction.
+## Dataset
+The dataset was sourced from Kaggle, created by user Ahsan Raza:  
+[Hotel Reservations Classification Dataset](https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset/data)
 
-This project focuses on developing a machine-learning model to predict which guests are likely to cancel their bookings. By leveraging historical booking data and identifying key patterns, the model aims to provide actionable insights for hotel chains, helping them make informed decisions about resource allocation, overbooking strategies, and marketing efforts to retain at-risk customers.
+## Project Overview
 
----
-## Dataset Source
+### 1. Data Preprocessing
+- Converted categorical variables into binary using one-hot encoding.
+- Handled missing values and prepared the dataset for analysis.
 
-The dataset used in this project is the [Hotel Reservations Dataset](https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset), created by Ahsan Raza. This dataset provides the necessary features for building and evaluating the machine learning model used in this project.
+### 2. Exploratory Data Analysis (EDA)
+- Visualized the distribution of the target variable (`booking_status`).
+- Identified correlations between features and booking cancellations.
 
----
+### 3. Model Training & Evaluation
+Implemented and evaluated the following classification models:
+- **Decision Tree**
+- **Random Forest**
+- **Gradient Boosting**
+
+Each model was assessed using performance metrics such as **accuracy, precision, recall, and F1-score** to determine the most effective approach for predicting cancellations.
+
+## Installation & Usage
+
+### Requirements
+Ensure you have the following dependencies installed:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
