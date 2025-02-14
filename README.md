@@ -1,7 +1,5 @@
 # Hotel Booking Cancellation Prediction
 
-### - Dhillon Patel
-
 This project aims to predict whether a hotel booking will be canceled based on various features. It includes data exploration, preprocessing, and predictive modeling using Random Forest, Gradient Boosting, and Decision Tree.
 
 ## Dataset
