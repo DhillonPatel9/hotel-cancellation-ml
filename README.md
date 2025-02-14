@@ -1,6 +1,10 @@
 # Hotel Booking Cancellation Prediction
 
-This project aims to predict whether a hotel booking will be canceled based on various features. It includes data exploration, preprocessing, and predictive modeling using Random Forest, Gradient Boosting, and Decision Tree.
+## Project Overview
+
+This project aims to develop a predictive model that helps hotels anticipate booking cancellations. Cancellations can significantly impact hotel operations, leading to lost revenue and poor resource allocation.
+
+With a data-driven approach, hotels can use these insights to construct robust strategies, such as adjusting cancellation policies, offering incentives for early confirmations, or optimizing overbooking methods. The predictive models built in this project provide a foundation for empirical decision-making in the hospitality industry, helping hotels reduce uncertainty and improve financial stability.
 
 ## Dataset
 The dataset was sourced from Kaggle, created by user Ahsan Raza:  
