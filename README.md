@@ -26,11 +26,4 @@ Implemented and evaluated the following classification models:
 - **Random Forest**
 - **Gradient Boosting**
 
-Each model was assessed using performance metrics such as **accuracy, precision, recall, and F1-score** to determine the most effective approach for predicting cancellations.
-
-## Installation & Usage
-
-### Requirements
-Ensure you have the following dependencies installed:
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+Each model was assessed using performance metrics such as **accuracy, precision, recall, F1-score, and ROC-AUC** to determine the most effective approach for predicting cancellations.
