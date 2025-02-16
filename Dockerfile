@@ -5,7 +5,7 @@ FROM python:3.11-slim
 WORKDIR /project
 
 # Copy files
-COPY . .  # Ensures no duplicate directories
+COPY . .
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt && pip install jupyter
