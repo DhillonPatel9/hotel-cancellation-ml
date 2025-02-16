@@ -4,14 +4,11 @@ FROM python:3.11-slim
 # Set working directory
 WORKDIR /project
 
-# Copy only requirements first
-COPY requirements.txt ./
+# Copy files
+COPY . .  # Ensures no duplicate directories
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt && pip install jupyter
-
-# Copy the rest of the project files
-COPY . .
 
 # Expose Jupyter Notebook port
 EXPOSE 8888
