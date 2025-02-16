@@ -27,3 +27,16 @@ Implemented and evaluated the following classification models:
 - **Gradient Boosting**
 
 Each model was assessed using performance metrics such as **accuracy, precision, recall, F1-score, and ROC-AUC** to determine the most effective approach for predicting cancellations.
+
+---
+
+### Python Libraries Used  
+The following Python packages were utilized: 
+- **`numpy`**: For numerical computations and array operations.  
+- **`pandas`**: For data manipulation and analysis.  
+- **`seaborn`**: For statistical data visualization.  
+- **`matplotlib`**: For creating visualizations.  
+- **`sklearn`**: For machine learning tasks, including data preprocessing, model training, and evaluation.  
+
+---
+### How to Run This Project
