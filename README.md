@@ -59,8 +59,8 @@ Run the following commands to build and run the project:
     ```
     
 4.	**Access Jupyter Environment**:
-   - Towards the end of the output, there should be a link. Open the last link given to you (begins with `http://127.0.0.1:8888/tree`) and paste it in the browser
-   - Open to the hotel_cancellation_ml.ipynb file
+   - Towards the end of the output, there should be three links. Copy the last link (begins with `http://127.0.0.1:8888/tree`) and paste it into the browser.
+   - Once in the Jupyter environment, open to the hotel_cancellation_ml.ipynb file
 
 5.	**Interact With Notebook**:
      You will now have access to the project with all required dependencies installed.
