@@ -40,3 +40,29 @@ The following Python packages were utilized:
 
 ---
 ### How to Run This Project
+1. **Clone the Repository**:
+   ```bash
+   https://github.com/DhillonPatel9/hotel-cancellation-ml.git
+   ```
+   
+2. **Navigate to the Repository**:
+   After cloning the repository, change to the `hotel-cancellation-ml` directory:
+   ```bash
+   cd hotel-cancellation-ml
+   ```
+
+3.	**Build and Run the Container**:
+Run the following commands to build and run the project:
+    ```bash
+    docker build -t hotel_ml_project .
+    docker run -p 8888:8888 hotel_ml_project
+    ```
+    
+4.	**Access Jupyter Environment**:
+   - Open the last link (begins with http://127.0.0.1:8888/tree)
+   - Open to the hotel_cancellation_ml.ipynb file
+
+5.	**Interact With Notebook**:
+     You will now have access to the project with all required dependencies installed.
+
+---
