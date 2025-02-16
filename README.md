@@ -1,4 +1,4 @@
-# Hotel Booking Cancellation Prediction (Work In Progress)
+# Hotel Booking Cancellation Prediction
 
 ## Project Overview
 
